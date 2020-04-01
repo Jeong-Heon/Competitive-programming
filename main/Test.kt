@@ -1,5 +1,5 @@
 package main
 
 fun main() {
-    println("Hello")
+    println("Hello World")
 }
