@@ -6,5 +6,5 @@ fun main() {
 }
 
 fun sortedSquares(A: IntArray): IntArray {
-    return A.map { it * it }.sorted().toIntArray()
+    return A.map { it * it }.sortedWith(Comparator { o1, o2 -> o1 * o1 - o2 * o2 }).toIntArray()
 }
